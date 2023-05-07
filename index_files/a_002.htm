@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Ashes to Ashes on Steam</title>
+	<link href="a_data_002/shared_global.css" rel="stylesheet" type="text/css">
+<link href="a_data_002/styles_storev5.css" rel="stylesheet" type="text/css">
+<!--[if lte IE 6]> <link href="https://store.akamai.steamstatic.com/public/css/styles_storev5_ie6.css?v=ZAAkncHffEfc&amp;l=english" rel="stylesheet" type="text/css" >
+ <![endif]-->
+<!--[if lte IE 7]> <style type="text/css"> .iepopupfix{ display: block; } </style> <![endif]-->
+	<link href="a_data_002/styles_widget.css" rel="stylesheet" type="text/css">
+	<link href="a_data_002/motiva_sans.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="a_data_002/jquery-1.8.3.min.js"></script>
+	<link rel="image_src" href="https://cdn.akamai.steamstatic.com/steam/apps/2381010/capsule_231x87.jpg?t=1683407224">
+	<script type="text/javascript">
+		function addToCart( subid )
+		{
+			try
+			{
+				document.forms['add_to_cart_'+subid].submit();
+			}
+			catch( e )
+			{
+			}
+		}
+
+		function addToWishlist()
+		{
+			try
+			{
+				document.forms['add_to_wishlist'].submit();
+			}
+			catch( e )
+			{
+			}
+		}
+	</script>
+</head>
+
+<body>
+<div id="widget">
+	<div id="header" class="header_container">
+		<h1 class="main_text" style="max-width: 1094px;">
+			<a href="https://store.steampowered.com/app/2381010/Ashes_to_Ashes/?snr=1_5_1100__1100" target="_blank" rel="noreferrer">Ashes to Ashes</a>
+		</h1><h1 class="tail">&nbsp;<a target="_blank" href="https://store.steampowered.com/app/2381010/Ashes_to_Ashes/?snr=1_5_1100__1100"><em>on Steam</em></a></h1>	</div>
+	<script type="text/javascript">
+
+		function ResizeText( errorMargin )
+		{
+			var containerWidth = $("#header").innerWidth();
+			var width= $("#header > .tail").outerWidth();
+			$('#header > .main_text').css( {'max-width': containerWidth - width });
+		}
+
+		$(window).load(function() {
+			ResizeText(0);
+		});
+
+		$(window).resize(function() {
+			ResizeText(0);
+		});
+	</script>
+	<div style="clear: both;"></div>
+
+	<div class="desc">
+		<a href="https://store.steampowered.com/app/2381010/Ashes_to_Ashes/?snr=1_5_1100__1100" target="_blank" rel="noreferrer"><img class="capsule" src="a_data_002/capsule_184x69.jpg"></a>
+		Shoot your way to vengeance as the infamous undead gunslinger Quinn 
+Del Ramo and discover the lore of the land through echoes of spirits 
+long passed to remember your past life.	</div>
+	<div style="clear: both;"></div>
+	<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+			<div class="game_purchase_action">
+			<form name="add_to_wishlist" action="https://store.steampowered.com//api/addtowishlist/" method="POST" target="_blank">
+				<input type="hidden" name="snr" value="1_5_1100_">
+				<input type="hidden" name="sessionid" value="80b8d47b00c10ad092728cbc">
+				<input type="hidden" name="appid" value="2381010">
+				<input type="hidden" name="widget" value="1">
+			</form>
+			<div class="game_purchase_action_bg coming_soon">
+				<div class="coming_soon_date">
+									<h1>Available: May 2023</h1>
+													</div>
+
+				<div class="btn_addtocart">
+					<a class="btn_addtocart_content" href="javascript:addToWishlist();">
+						Wishlist on Steam</a>
+				</div>
+				<div style="clear: left"></div>
+			</div>
+		</div>
+	
+</div>
+
+
+
+</body></html>
